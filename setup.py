@@ -12,6 +12,6 @@ setup(name="priceAssist",
       packages=['priceAssist'],
       install_requires=requirements,
       entry_points={
-        'console_scripts':['run priceAssist=priceAssist.main:main']
+        'console_scripts':['run_priceAssist=priceAssist.main:main']
         }
       )
