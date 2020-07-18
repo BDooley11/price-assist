@@ -86,6 +86,7 @@ while (Row < RowCount):
 		browser.get('https://priceassist.donedeal.ie/')
 
 workbook.close()
+browser.quit()
 
 
 
